@@ -1,0 +1,11 @@
+{
+  "name": "@foxriver76/eslint-config",
+  "version": "1.0.0",
+  "description": "Eslint config",
+  "dependencies": {
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.1"
+  }
+}
