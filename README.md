@@ -1,4 +1,13 @@
 # Eslint config for projects
+
+## Installation
+Install the package via 
+
+```bash
+npm i @foxriver76/eslint-config --save-dev
+```
+
+## Getting started
 Just extend this project in your lint config in your `.eslintrc.json`.
 
 ```json
