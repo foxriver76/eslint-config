@@ -277,7 +277,9 @@ module.exports = {
                 "quote-props": [
                     "error",
                     "as-needed"
-                ]
+                ],
+                "@typescript-eslint/consistent-type-imports": "error",
+                "@typescript-eslint/consistent-type-exports": "error"
             }
         }
     ]
