@@ -191,9 +191,13 @@ module.exports = {
                 "**/*.test-d.ts"
             ],
             "extends": [
-                "plugin:@typescript-eslint/recommended"
+                "plugin:@typescript-eslint/recommended",
+                "plugin:jsdoc/recommended-typescript"
             ],
             "rules": {
+                "jsdoc/require-returns": 0,
+                "jsdoc/tag-lines": ["error", "never", { "startLines": 1 }],
+                "jsdoc/no-blank-blocks": ["error", { "enableFixer": true }],
                 "@typescript-eslint/no-empty-function": "off",
                 "@typescript-eslint/no-parameter-properties": "off",
                 "@typescript-eslint/no-explicit-any": "off",

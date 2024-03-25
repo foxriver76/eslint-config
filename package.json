@@ -1,6 +1,6 @@
 {
   "name": "@foxriver76/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Eslint config",
   "main": ".eslintrc.js",
   "peerDependencies": {
@@ -8,6 +8,7 @@
     "@typescript-eslint/parser": "^6.2.1",
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-jsdoc": "^48.2.1",
     "eslint-plugin-prettier": "^5.0.0",
     "prettier": "^3.0.1"
   }
