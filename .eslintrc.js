@@ -7,7 +7,9 @@ module.exports = {
         "eslint:recommended",
         "plugin:prettier/recommended"
     ],
-    "plugins": [],
+    "plugins": [
+        "unicorn"
+    ],
     "ignorePatterns": [
         "**/doc",
         "**/build"
@@ -72,7 +74,9 @@ module.exports = {
         "no-trailing-spaces": "error",
         "prettier/prettier": "error",
         "no-nested-ternary": "off",
-        "no-unneeded-ternary": "error"
+        "no-unneeded-ternary": "error",
+        "unicorn/prefer-module": "error",
+        "unicorn/prefer-node-protocol": "error"
     },
     "parserOptions": {
         "ecmaVersion": 2021
