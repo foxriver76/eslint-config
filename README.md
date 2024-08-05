@@ -8,7 +8,7 @@ npm i @foxriver76/eslint-config --save-dev
 ```
 
 ## Getting started
-Just extend this project in your lint config in your `.eslintrc.json`.
+Just extend this project in your lint config in your `eslint.config.json`.
 
 ```json
 {
